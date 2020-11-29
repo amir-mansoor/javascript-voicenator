@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #213893;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.voiceinator {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.voiceinator h1 {
+    padding: 10px;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+}
+
+.voiceinator select {
+    width: 100%;
+    margin-top: 4px;
+    border: none;
+    background-color: gray;
+}
+
+.voiceinator input {
+    width: 90%;
+    padding: 10px;
+
+}
+
+.voiceinator textarea {
+    width: 90%;
+    background: darkgrey;
+    height: 90px;
+    margin: 10px;
+}
+
+
+#stop {
+    background-color: yellow;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#speak {
+    background-color: yellow;
+    padding: 18px;
+    cursor: pointer;
+}
+
+
+
+.CENTER {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
